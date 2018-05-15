@@ -1,3 +1,14 @@
-nav {
-	background-color:  #191e23;
+/* Dark Navy - #161a1e
+Background Navy - #191e23
+Regular Navy - #252c36 
+Medium Navy - #384555
+Light Text - #b0bac1
+Navy Headers - #313d4c */
+
+.navbar {
+	background-color:  #252C36;
+}
+
+#navbarNav {
+	float: right;
 }
