@@ -7,8 +7,95 @@ Navy Headers - #313d4c */
 
 .navbar {
 	background-color:  #252C36;
+	padding: 15px 30px;
+}
+
+.navbar li.divider {
+	width: 1px;
+	height: 28px;
+	border-right: 1px solid #b0bac1;
+	margin-top: 9px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #navbarNav {
 	float: right;
+}
+
+.profile-img {
+	background-color: #252c36;
+	border: 2px solid #4e5863;
+	border-radius: 50px;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+
+.caret {
+	background: url(/img/SVG/icon_dropdown.svg) no-repeat;
+	width: 12px;
+	height: 6px;
+	float: right;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 20px;
+}
+
+.switch input {
+	display:none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  border-radius: 34px;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #161A1E;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  border-radius: 50%;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 1px;
+  bottom: 1px;
+  background-color: #4e5863;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 10px 30px;
+	}
 }

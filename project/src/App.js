@@ -8,24 +8,26 @@ import SidebarLeft from './components/Sidebar/SidebarLeft';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-				<Navbar />
-				<Summary />
-				<div className="row">
-					<div className="col col-md-3">
-						<SidebarLeft />
-					</div>
-					<div className="col md-auto">
+		return (
+			<div className="App">
+				<b-container>
+					<Navbar />
+					<Summary />
+					<div className="row">
+						<div className="col col-md-3">
+							<SidebarLeft />
+						</div>
+						<div className="col md-auto">
 
+						</div>
 					</div>
-				</div>
+				</b-container>
 
-        {/* <header className="App-header">
+				{/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header> */}
-      </div>
+			</div>
     );
   }
 }
