@@ -1,3 +1,25 @@
 .Summary {
 	background-color: #161A1E;
+	padding: .5em 1em;
+}
+
+.nav .currency a {
+	color: #86AF6B;
+	font-weight: 700;
+	/* color: #80C156; */
+	/* color: #98D372; */
+}
+
+.nav .nav-item {
+	display: block;
+	padding: .5rem 1rem;
+}
+
+.nav-item label {
+	margin-bottom: 0;
+	font-weight: 200;
+}
+
+.nav-item span {
+	font-weight: 700;
 }
