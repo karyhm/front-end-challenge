@@ -1,7 +1,29 @@
+@font-face {
+	font-family: 'DINPro';
+	font-style: normal;
+	font-weight: 200;
+	src: url('/fonts/DINPro-Light.otf');
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/DINPro-Regular.otf');
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/DINPro-Medium.otf');
+}
+
+
 body {
   margin: 0;
   padding: 0;
-	font-family: sans-serif;
+	font-family: 'DINPro', sans-serif;
 	color: #b0bac1;
 	background-color: #191E23;
 }
