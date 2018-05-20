@@ -1,19 +1,19 @@
 import React from 'react'
-// import style from './SidebarLeft.css'
+import style from './LastTrades.css'
 
 const LastTrades = (props) => {
 	return (
 		<div className="LastTrades">
-			<div className="header">
-				<h3>ULTIMOS TRADES</h3>
+			<div className="header-block">
+				<h4>ULTIMOS TRADES</h4>
 			</div>
 
-			<table class="table table-borderless">
+			<table className="table table-borderless">
 				<thead>
 					<tr>
 						<th scope="col">HORA</th>
-						<th scope="col">MXN <span>PRECIO</span></th>
-						<th scope="col">BTC <span>MONTO</span></th>
+						<th scope="col"><span className="currency">MXN</span>PRECIO</th>
+						<th scope="col"><span className="currency">BTC</span>PRECIO</th>
 					</tr>
 				</thead>
 				<tbody>
